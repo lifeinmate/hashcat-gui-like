@@ -1,0 +1,8 @@
+Preferable requirements
+  Kali Linux or any linux OS (debian)
+
+Tools required
+  Hashcat 
+  Zenity
+  Terminator
+  python3
