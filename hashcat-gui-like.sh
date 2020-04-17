@@ -22,13 +22,8 @@ tail $1 --lines=21 | head --lines=10 | zenity --text-info --title="RESULTS" --wi
 }
 
 hashidentify (){
-#sudo apt-get install git terminator python3 -y
-#git clone https://github.com/blackploit/hash-identifier.git /opt
-#chmod +x /opt/hash-identifier/hash-id.py
-cd /opt/hash-identifier
 hash=$( input hash)
-#display $(pwd)
-terminator -x python3 hash-id.py $hash
+terminator -x python3 /opt/hash-identifier/hash-id.py $hash
 }
 
 proc (){
