@@ -1,1 +1,1 @@
-A simple bash script tool to help crack those password hashes faster
+A simple  bash script tool that helps its users to utilize time cracking passwords and identifying hashes. Made as GUI for hashcat, allows better user interaction which increases efficiency for cracking passwords. Wonderful for new users.
